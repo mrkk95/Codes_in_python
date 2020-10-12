@@ -3,8 +3,7 @@ def factorial(num):
    itself to find the factorial of given number"""
     if num == 1:
         return num
-    else:
-        return num * factorial(num - 1)
+    return num * factorial(num - 1)
 
 
 # We will find the factorial of this number
